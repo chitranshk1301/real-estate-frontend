@@ -19,8 +19,8 @@ const Header = () => {
     <chakra.header id="header" borderBottom="1px solid rgb(0,0,0,0.3)">
       <Flex w="100%" py="5" align="center" justify="space-between">
         <Link to="/">
-          <Heading fontSize="3xl" color="purple.700">
-            Estatery.
+          <Heading fontSize="3xl" color="blue.400">
+            Houser
           </Heading>
         </Link>
         {isDesktop ? (

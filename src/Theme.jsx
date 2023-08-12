@@ -9,6 +9,8 @@ const breakpoints = {
 }
 
 export const theme = extendTheme({
+  initialColorMode: 'light',
+  useSystemColorMode: false,
   breakpoints, 
   fonts: {
     heading: `'Roboto Slab', ${base.fonts.heading}`,
@@ -17,31 +19,31 @@ export const theme = extendTheme({
   styles: {
     global: {
         body: {
-            bg: 'purple.50'
+            bg: 'pink.60'
         }
     }
   },
   components: {
     Button: {
       defaultProps: {
-        colorScheme: 'purple', // default is gray
+        colorScheme: 'blue',
       }
     },
     Input:{
       defaultProps: {
-        focusBorderColor: 'purple.500'
+        focusBorderColor: 'blue.500'
       }
     },
     Select:{
       baseStyle: {
         _focus: {
-          borderColor: 'purple.500'
+          borderColor: 'indigo.500'
         }
       }
     },
     Textarea:{
       defaultProps: {
-        focusBorderColor: 'purple.500'
+        focusBorderColor: 'indigo.500'
       }
     }
   }

@@ -7,7 +7,7 @@ const Footer = () => {
         borderRadius="2%"
         mt="8"
         py="20px"
-        bg="purple.700"
+        bg="gray.700"
         color="white"
       >
         <Text fontSize="15px">Estatery &copy; 2023</Text>
